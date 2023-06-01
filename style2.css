@@ -1,0 +1,54 @@
+header {
+    background-color: violet;
+    color: black;
+    text-align: center;
+    padding: 100px;
+    margin: 50px;
+    border: 1px solid black;
+    
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  #inicio {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  #inicio:hover {
+    color: #1BF7DE;
+  }
+  #contacto {
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+  }
+  #contacto:hover {
+    color: black;
+  }
+  #recetas {
+    color: blue;
+    text-decoration: none;
+    padding: 5px;
+  }
+  #recetas:hover {
+    color: green;
+  }
+  @media (max-width: 767px) {
+    header { background-color: black;
+    }
+    nav {
+font-size: 50px;
+    }
+  }
+  @media (min-width: 1200px) {
+    header { width: 1200px;
+
+    }
+  }
