@@ -165,3 +165,86 @@ height: 300px;
   display: flex;
   justify-content: center;
  }
+ .saludos{
+  text-align: center;
+ }
+ footer.piedepagina {
+  background-color: red;
+  color: black;
+}
+
+footer.piedepagina {
+  background-color: red;
+  color: black;
+}
+
+footer.piedepagina p {
+  font-size: 16px;
+}
+
+.botones button {
+  /* Estilos específicos para los botones en la clase 'botones' */
+  background-color: #8B4513;
+  color: #FFF;
+  border: 2px solid #8B4513;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 2px 2px 5px #000;
+}
+body {
+  background-color: #FFE4C4;
+  color: #8B4513;
+  font-family: "Old English Text MT", serif;
+  font-size: 16px;
+}
+
+header.container-nav {
+  background-color: black;
+  color: #FFF;
+  padding: 20px;
+}
+
+.brand {
+  font-family: "Old English Text MT", serif;
+  font-size: 24px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  color: #8B4513;
+  font-family: "Old English Text MT", serif;
+}
+
+footer.piedepagina {
+  background-color: #8B4513;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+.botones button {
+  /* Estilos específicos para los botones en la clase 'botones' */
+  background-color: #8B4513;
+  color: #FFF;
+  border: 2px solid #8B4513;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #000;
+  box-shadow: 2px 2px 5px #000;
+}
